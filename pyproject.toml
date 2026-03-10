@@ -1,0 +1,7 @@
+[project]
+name = "files-mover-python-cli"
+version = "0.1.0"
+description = "Python script to zip files from a source folder and copy the resulting archive to a specified destination folder."
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = []
