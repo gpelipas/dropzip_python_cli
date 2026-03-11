@@ -47,3 +47,5 @@ python dropzip.py --source /data/logs --dest /backups --prefix ZYX --delete true
 | `--delete` | `DELETE_AFTER_ZIP` | `false` | Delete source files after zipping |
 | `--filter` | `ZIP_FILE_FILTER` | *(empty — all files)* | File extension filter, e.g. `.log` |
 
+
+
