@@ -86,7 +86,7 @@ def run(source_folder: str, dest_folder: str,
         zip_prefix: str, delete_after: bool, ext_filter: str) -> None:
 
     source = Path(source_folder)
-    dest   = Path(dest_folder)
+    dest = Path(dest_folder)
 
     # validate path
     if not source.exists():
@@ -105,9 +105,9 @@ def run(source_folder: str, dest_folder: str,
     log.info("Found %d file(s) in %s", len(files), source)
 
     # prepare zip filename
-    timestamp    = datetime.now().strftime("%Y%m%d_%H%M%S")
+    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
     zip_filename = f"{zip_prefix}_{timestamp}.zip"
-    zip_path     = dest / zip_filename
+    zip_path  = dest / zip_filename
 
     # start zipping the files
     log.info("Creating archive: %s", zip_path)
